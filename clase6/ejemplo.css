@@ -1,0 +1,33 @@
+/* font-family: "Open Sans", sans-serif;
+font-family: "Pacifico", cursive;
+*/
+
+.texto{
+    background-color: yellow;
+     column-count: 2; /*cantidad de columnas */
+     column-gap: 60px; /*separación entre una columna y otra*/
+     column-rule: 3px solid black; /*línea vertical divisoria opcional*/
+
+     /* https://cssgenerator.org/ cajita sombreada de ej de la pág*/
+        text-align: center;
+        color: green;
+        box-shadow: 1px 64px 24px -51px rgba(0,0,0,0.22);
+}       
+
+.texto p{
+    margin: 0;
+}
+
+h1, h2{
+    font-family: "Pacifico", cursive;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* clases mías */
+.iconos{
+    font-size: 200px;
+    color: aqua;
+}
