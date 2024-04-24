@@ -1,0 +1,13 @@
+.caja{
+    background-color: orange;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-radius: 0 50px; /*no es necesario especificar la unidad cuando es 0*/
+    margin: 100px;
+    box-shadow: 10px 20px 5px black; /*mínimo 4 parámetros: horizontal(eje x), vertical(eje y)
+    desenfocado y el color. Si quiero invertir la sombra, los valores serían negativos*/
+}
+
