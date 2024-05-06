@@ -1,0 +1,31 @@
+.contenedor{
+    background-color: gray;
+    /* display: flex;   */
+    display: inline-flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: flex-start; /*por defecto*/
+    align-items: flex-end;
+    align-items: center;
+    /* align-items: stretch; estira la caja del elemento, quitando el height */
+    justify-content: center;
+}
+
+.item{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; esta opción sería para Multilínea! */
+
+    /* ojo que si modifico el alto esto ya no me sirve y son propiedades de texto (p)
+    text-align: center;
+    line-height: 100px; */
+
+}
+

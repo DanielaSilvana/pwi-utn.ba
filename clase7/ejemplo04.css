@@ -1,0 +1,39 @@
+.contenedor{
+    background-color: gray;
+    display: flex; /*SIEMPRE que sea DISTRIBUCIÓN/ALINEACIÓN tiene que ser FLEX*/
+    /* justify-content: flex-start; por defecto, al principio*/
+    justify-content: flex-end; /*al final-derecha*/
+    justify-content: center; /*centrado*/
+    justify-content: space-between; /*espacio equitativo alrededor de cada elemento?*/
+    justify-content: space-around; /*distribuye sumando los espacios al rededor, el último va a quedar más chico*/
+    justify-content: space-evenly;/*espacio distribuido de forma equitativa*/
+
+}
+
+.item{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    /* margin: 10px; */
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

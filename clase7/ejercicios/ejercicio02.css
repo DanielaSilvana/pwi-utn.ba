@@ -1,0 +1,43 @@
+.contenedor{
+    background-color: whitesmoke;
+    display: inline-flex;
+    height: 591px;
+    width: 1348px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    /* ojo con mis valores visuales de alto y ancho - original height: 600px únicamente */
+}
+
+#uno{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dos{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tres{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
